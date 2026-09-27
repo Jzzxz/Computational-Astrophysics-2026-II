@@ -1,2 +1,2 @@
-# Computational_Astrophysics_Proyects_and_Tasks
+# Computational_Astrophysics
     Assignments and numerical exercises for Computational Astrophysics
