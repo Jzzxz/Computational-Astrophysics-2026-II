@@ -31,24 +31,13 @@ A bracketing method that repeatedly divides an interval containing a root into t
 
 An iterative method that uses the derivative of the function to generate successive approximations to a root:
 
-$$
-x_{n+1}
-=
-x_n-\frac{f(x_n)}{f'(x_n)}.
-$$
+$$x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}.$$
 
 ### Secant Method
 
 An iterative method similar to Newton-Raphson, but it approximates the derivative using two previous points:
 
-$$
-x_{n+1}
-=
-x_n-
-f(x_n)
-\frac{x_n-x_{n-1}}
-{f(x_n)-f(x_{n-1})}.
-$$
+$$x_{n+1}=x_n-f(x_n)\frac{x_n-x_{n-1}}{f(x_n)-f(x_{n-1})}.$$
 
 ## Structure
 
